@@ -6,5 +6,9 @@
   "home.html": {
     "op": "add",
     "timestamp": 1789325634912
+  },
+  "version.txt": {
+    "op": "add",
+    "timestamp": 1789325635813
   }
 }
