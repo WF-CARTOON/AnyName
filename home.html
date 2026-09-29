@@ -18,25 +18,31 @@
 
 
 
+
+
+
+
+
+
 <!-- SM-AUTO-INJECTED:START:admin-styles -->
 <style id="admin-styles">
         :root {
-            --header-bg-light: #000;
-            --header-text-light: #fff;
+            --header-bg-light: ;
+            --header-text-light: ;
             --header-bg: var(--header-bg-light);
             --header-text: var(--header-text-light);
-            --drawer-bg-light: #000;
-            --drawer-text-light: #fff;
+            --drawer-bg-light: ;
+            --drawer-text-light: ;
             --drawer-bg: var(--drawer-bg-light);
             --drawer-text: var(--drawer-text-light);
         }
         [data-user-theme="dark"] {
-            --header-bg-dark: #1e1e1e;
-            --header-text-dark: #e0e0e0;
+            --header-bg-dark: ;
+            --header-text-dark: ;
             --header-bg: var(--header-bg-dark);
             --header-text: var(--header-text-dark);
-            --drawer-bg-dark: #1e1e1e;
-            --drawer-text-dark: #e0e0e0;
+            --drawer-bg-dark: ;
+            --drawer-text-dark: ;
             --drawer-bg: var(--drawer-bg-dark);
             --drawer-text: var(--drawer-text-dark);
         }
@@ -147,35 +153,7 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <!-- SM-AUTO-INJECTED:END:admin-styles -->
-<!-- SM-AUTO-INJECTED:START:header-preset-styles -->
-<style id="header-preset-styles">
-/* HEADER_STYLE_PRESET: gradient */
-/* HEADER_STYLE_OPTIONS: {"angle":218,"endColor":"#800ffc"} */
-header {
-    background: linear-gradient(218deg, var(--header-bg), #800ffc);
-    overflow: hidden;
-    border-radius: 0 0 24px 24px;
-    box-shadow: 0 12px 28px -14px rgba(0,0,0,0.4);
-}
-header::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(120deg, rgba(255,255,255,0.25), rgba(255,255,255,0) 40%, rgba(0,0,0,0.12));
-    pointer-events: none;
-}
-.header-brand, .dl123, .menu-btn-container {
-    position: relative;
-    z-index: 1;
-}
-#pageMainHeader {
-    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
-}
-.bottom-navbar {
-    background: linear-gradient(218deg, var(--header-bg), #800ffc);
-}
-</style>
-<!-- SM-AUTO-INJECTED:END:header-preset-styles -->
+
 <!-- SM-AUTO-INJECTED:START:nav-tool-preset-styles -->
 <style id="nav-tool-preset-styles">
 /* NAV_TOOL_PRESET: bottom-classic */
@@ -271,7 +249,6 @@ header.header-scrolled .menu-bar-line {
         <span id="pageMainHeader" style="font-weight:bold; font-size: 1.1rem; display: inline-block; vertical-align: middle;">home</span>
     </div>
     <div style="display: flex; align-items: center; gap: 8px;">
-    <div class="dl123" id="userThemeToggleBtn" onclick="toggleUserTheme()"><i class="fa-solid fa-moon"></i></div>
     <div class="dl123" id="smSearchToggleBtn" onclick="smToggleSearchPanel()" title="بحث"><i class="fa-solid fa-magnifying-glass"></i></div>
     </div>
 </header>
@@ -299,10 +276,12 @@ header.header-scrolled .menu-bar-line {
 <!-- END ADMIN DRAWER -->
 
 
+
 <main style="padding: 20px;">
     <h1 id="pageContentTitle">صفحة home</h1>
     <p>محتوى الصفحة الافتراضي المخصص لك.</p>
 </main>
+
 
 
 <!-- SM-AUTO-INJECTED:START:admin-scripts -->
