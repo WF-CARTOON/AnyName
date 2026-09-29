@@ -1,9 +1,9 @@
 [
   {
     "file": "home.html",
-    "title": "home",
+    "title": "الرئيسية",
     "icon": "fa-solid fa-file",
-    "hidden": true,
+    "hidden": false,
     "searchEnabled": true,
     "searchNames": []
   }
