@@ -5,6 +5,8 @@
     "icon": "fa-solid fa-clover",
     "hidden": false,
     "searchEnabled": true,
-    "searchNames": []
+    "searchNames": [
+      "ورد"
+    ]
   }
 ]
