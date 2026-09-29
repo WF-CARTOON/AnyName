@@ -2,7 +2,7 @@
   {
     "file": "home.html",
     "title": "الرئيسية",
-    "icon": "fa-solid fa-file",
+    "icon": "fa-solid fa-clover",
     "hidden": false,
     "searchEnabled": true,
     "searchNames": []
